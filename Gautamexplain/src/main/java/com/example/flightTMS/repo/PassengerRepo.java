@@ -8,3 +8,5 @@ import org.springframework.stereotype.Repository;
 public interface PassengerRepo extends JpaRepository<PassengerEntity,Integer> {
     public PassengerEntity findByPassengerUsernameAndPassengerPassword(String username,String password);
 }
+
+//commit 1 go
